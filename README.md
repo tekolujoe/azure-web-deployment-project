@@ -1,5 +1,3 @@
-# azure-web-deployment-project
-Capstone Project - Deploying Applications Across Various Service Models on Azure (IaaS &amp; PaaS)
 # Azure Web Deployment Project
 
 Capstone Project — Deploying Applications Across Various Service Models on Azure (IaaS & PaaS)
