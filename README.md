@@ -75,3 +75,50 @@ app.listen(port, () => {
     "express": "^5.1.0"
   }
 }
+
+
+**IaaS Deployment (Azure Virtual Machine)**
+✅ Deployed on an Ubuntu VM using Nginx.
+
+✅ **Steps performed:**
+Created a VM in Azure
+Installed Nginx
+
+Deployed the HTML page at:
+/var/www/html/index.html
+
+✅ **VM Public IP:**
+48.217.68.124
+
+✅ Browser output:
+Hello from Gbadeweb’s VM on Azure!
+
+**PaaS Deployment (Azure App Service)**
+✅ Deployed on Azure App Service running Node.js 20 LTS (Linux).
+✅ Deployment steps:
+
+**Created an App Service**
+Uploaded index.html, server.js, and package.json
+
+**Configured startup command:**
+npm start
+
+✅ **App Service URL:**
+https://webjoeapp.azurewebsites.net
+
+✅ **Browser output:**
+**Hello from Gbadeweb’s App Service on Azure!**
+
+Project Outcome
+This project highlights:
+
+**IaaS (VM):**
+Total control of OS and environment
+Requires manual server configuration (Nginx, file management)
+
+**PaaS (App Service):**
+Simplified deployment
+Managed runtime
+No server maintenance required
+
+✅ Both models successfully served the same web app, demonstrating different levels of flexibility and complexity.
